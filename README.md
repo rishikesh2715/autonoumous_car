@@ -13,9 +13,9 @@ This project showcases an autonomous toy car with advanced navigation capabiliti
 ## Hardware Requirements
 
 * **Toy Car Base:** (Specify brand and model)
-* **Raspberry Pi:** (Model 3B+ or higher)
-* **Camera Module:** (Specify model)
-* **Motor Driver:** (Specify model)
+* **Raspberry Pi:** (Model 5 or better yet A Nvidia Jetson Based SBC)
+* **Camera Module:** (Logitech C920)
+* **Motor Driver:** (Specify mode)
 * **Servo Motor:** (Specify model)
 * **Power Supply:** (Specify type)
 * **Jumper Wires, Breadboard** 
@@ -23,9 +23,9 @@ This project showcases an autonomous toy car with advanced navigation capabiliti
 ## Software Requirements
 
 * **Operating System:** Raspbian OS 
-* **Python 3** 
+* **Python 3.11** 
 * **OpenCV**
-* **YOLOv8** ([Installation instructions at: invalid URL removed])
+* **YOLOv8** ([Installation instructions at: https://github.com/ultralytics/ultralytics])
 * **Additional Libraries:**
    * `numpy`
    * `torch`
