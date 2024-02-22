@@ -30,6 +30,7 @@ This project showcases an autonomous toy car with advanced navigation capabiliti
    * `numpy`
    * `torch`
    * `time`
+   * `SuperVision`
    * `RPi.GPIO` (If using Raspberry Pi)
 
 ## Project Structure
@@ -40,10 +41,10 @@ This project showcases an autonomous toy car with advanced navigation capabiliti
     * **yolo_traffic_cone_detection.py**
     * **navigation.py** 
 * **models/**
-    * **sidewalk_model.pt** 
+    * **sidewalk_segment.pt** 
     * **human_model.pt** 
     * **traffic_cone_model.pt**
-* **data/** (Optional, if using a custom dataset)
+* **data/** (custom dataset)
 
 ## Setting Up the Project
 
